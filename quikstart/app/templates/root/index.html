@@ -7,3 +7,9 @@
 <button value="点击我" (click)="clickMe('Alvin')" >点击我</button>
 
 <div [title]="app.discreption" >discreption</div>
+
+<ul>
+	<li *ngFor="let lan of app.languages">
+		{{lan.name}}
+	</li>
+</ul>
